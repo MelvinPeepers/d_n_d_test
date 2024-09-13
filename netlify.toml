@@ -1,0 +1,8 @@
+[dev]
+  command = "serve" # or any other command you use to start your local dev server
+  targetPort = 8000 # the port your local server uses
+  publish = "simple_site-d_and_drop" # directory to serve
+
+[build]
+  publish = "simple_site_d_and_drag"  # Adjust if your publish directory is different
+  functions = "netlify/functions"  # Path to your functions directory
